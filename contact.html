@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Apcosys - ERP, Softwares, Edutech, Skill Development, Consultancy, Coaching, Tuition</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" href="icons/Apco_logo.ico" >
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/boot_css/bootstrap.min.css">
+    </head>
+    <body>
+         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+			<div class="container">
+				<a class="navbar-brand " href="index.html">
+					<img src="logo/Apco_logo.png" class=" logo"alt="logo">
+                </a>
+                <div >
+                    <h2 class="title">Apcosys</h2>
+                    <div >
+                        <img src="img/candy box icon.png" class="menu_img"  onclick="openForm()" alt="" >
+                    </div>
+                    
+                </div>
+                <div class="Sub_menu_wrap" id="myForm">
+                     <div class="Sub_menu shadow " >
+                        <img src="img/pngwing.com (44).png"  class="menu_img_close" onclick="closeForm()"alt="">
+                          <div class="Sub" >
+                            <div class="com">
+                                <a href="index.html" >
+                                    <img src="img/apcosysssss.png" class="Icons_link">
+                                </a>
+                                <p class="menu_text">APCOSYS</p>
+                            </div>
+                            <div class="com">
+                                <a href="arms.html">
+                                    <img src="img/ERP.png" class="Icons_link1">
+                                   
+                                </a>
+                                <p class="menu_text">ARMS</p>
+                            </div>
+                            
+                           <div class="com">
+                            <a href="abcd.html">
+                                <img src="img/bussiness.png" class="Icons_link">
+                               
+                            </a>
+                            <p class="menu_text">ABCD</p>
+                           </div>
+                            
+                          </div>
+                          <div class="Sub">
+                            <div class="com">
+                                <a href="http://www.theskillversity.com">
+                                    <img src="img/sillversity.png" class="Icons_link1">
+                                   
+                                </a>
+                                <p class="menu_text1">SKILLVERSITY</p>
+                            </div>
+                            <div class="com">
+                                <a href="jusdot.html">
+                                    <img src="img/Jusdots.png" class="Icons_link2">
+                                  
+                                </a>
+                                <p class="menu_text1">JUSDOTS</p>
+                            </div>
+                            <div class="com"> 
+                                <a href="awsc.html">
+                                    <img src="img/Awcs.png" class="Icons_link2">
+                                    
+                                </a>
+                                <p class="menu_text1">AWSC</p>
+                            </div>
+                          </div>
+                          <div class="Sub">
+                            <div class="com">
+                                <a href="reelsin.html">
+                                    <img src="img/Reelin.png" class="Icons_link">
+                                   
+    
+                                </a>
+                                <p class="menu_text">REELSIN</p>
+                            </div>
+                            <div class="com">
+                                <a href="tutions.html">
+                                    <img src="img/T.png" class="Icons_link">
+                                 
+                                </a>
+                                <p class="menu_text">TUITIONS</p>
+                            </div>
+                           <div class="com">
+                            <a href="events.html">
+                                <img src="img/Untitled-1.png" class="Icons_link">
+                                
+                            </a>
+                            <p class="menu_text">EVENTS</p>
+                           </div>
+                          </div>
+                           
+                     </div>
+                </div>
+            </div>
+		</nav>
+       
+        
+        <section  class=" pt-100 pb-70">
+			<div class="container-fluid">
+				<div class="row ">
+					<div class="col-lg-6">
+						<div class="contact_style">
+							<div >
+								<span class="contact_get_in">Get In Touch</span>
+								<h2 class="contact_head">All Fields Are Compulsory</h2>
+
+							</div>
+	
+							<form method="post" action="http://localhost:3000/contact" id="contactForm">
+								<div class="row">
+									<div class="col-lg-6 col-sm-6">
+										<div class="form-group">
+											<input type="text" name="name" id="name" class="form-control" required="" data-error="Please enter your name" placeholder="Your Name">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+		
+									<div class="col-lg-6 col-sm-6">
+										<div class="form-group">
+											<input type="email" name="email" id="email" class="form-control" required="" data-error="Please enter your email" placeholder="Your Email">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+	
+									<div class="col-lg-6 col-sm-6">
+										<div class="form-group">
+											<input type="tel" name="phone" id="phone" required="" data-error="Please enter your number" class="form-control" placeholder="Your Phone">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+		
+									<div class="col-lg-6 col-sm-6">
+										<div class="form-group">
+											<input type="text" name="subject" id="subject" class="form-control" required="" data-error="Please enter your subject" placeholder="Subject">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+
+		
+									<div class="col-12">
+										<div class="form-group">
+											<textarea name="message"  class="form-control" id="message" cols="30" rows="6" required="" maxlength="500" minlength="1" data-error="Write your message" placeholder="Your Message Here- Atleast 100 characters"></textarea>
+											<div style="margin-top: 0.25rem; text-align: right;" id="counter" >0/500
+                                            </div>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+	
+									
+		
+									<div class="col-lg-12 col-md-12">
+										<input  type="submit"   class="button_style" value="Send Message" id="form-submit" required />
+								
+                                	
+									</div>
+                                </div>
+                                </div>
+						
+
+							</form>
+					</div>
+                    <div class="col-lg-6 ">
+						<div class="d-none d-md-block">
+							<img src="img/cont_M_img.JPG" alt="Image" class="cont_img ">
+						</div>
+					</div>
+				</div>
+
+					
+				</div>
+			</div>
+		</section>
+        <footer>
+            <div class="footer1">
+                <div><p>Stay Distinct, Be Unique </p></div>
+                <div><p class="font-style">AATMANIRBHAR IN<br>INFORMATION TECHNOLOGY</p></div>
+                <div><p>Innovation, Creativity, Revolution</p></div>
+               
+            </div>
+            <div class="footer2">
+                <div class="container">
+                    <p class="copy">
+                        Copyright &#169 2022 Apcosys. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/appsAction.js" ></script>
+        <script src="js/boot_js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+         
+    </body>
+</html>
+
+
